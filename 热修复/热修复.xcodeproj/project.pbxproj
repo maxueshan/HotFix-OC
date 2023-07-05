@@ -1,0 +1,594 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6707368921CB45ED00401F6F /* TestModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6707368821CB45ED00401F6F /* TestModel.m */; };
+		670B11FC224DFD9000A64271 /* test.js in Resources */ = {isa = PBXBuildFile; fileRef = 670B11FB224DFBE600A64271 /* test.js */; };
+		670B11FF224E069500A64271 /* alert.js in Resources */ = {isa = PBXBuildFile; fileRef = 67238A3B21CC859F005D9065 /* alert.js */; };
+		670B1200224E069700A64271 /* tableView.js in Resources */ = {isa = PBXBuildFile; fileRef = 67238A4621CCDEFD005D9065 /* tableView.js */; };
+		670B1202224E069E00A64271 /* changeArguments.js in Resources */ = {isa = PBXBuildFile; fileRef = 67238A4521CCDD3C005D9065 /* changeArguments.js */; };
+		670B122F224E43BD00A64271 /* instanceMethodCrash.js in Resources */ = {isa = PBXBuildFile; fileRef = 670B1221224E43BD00A64271 /* instanceMethodCrash.js */; };
+		670B1230224E43BD00A64271 /* runInstanceMethod.js in Resources */ = {isa = PBXBuildFile; fileRef = 670B1222224E43BD00A64271 /* runInstanceMethod.js */; };
+		670B1231224E43BD00A64271 /* runBeforeClassMethod.js in Resources */ = {isa = PBXBuildFile; fileRef = 670B1223224E43BD00A64271 /* runBeforeClassMethod.js */; };
+		670B1232224E43BD00A64271 /* runClassMethod.js in Resources */ = {isa = PBXBuildFile; fileRef = 670B1224224E43BD00A64271 /* runClassMethod.js */; };
+		670B1233224E43BD00A64271 /* runAfterInstanceMethod.js in Resources */ = {isa = PBXBuildFile; fileRef = 670B1225224E43BD00A64271 /* runAfterInstanceMethod.js */; };
+		670B1234224E43BD00A64271 /* changeReturnValue.js in Resources */ = {isa = PBXBuildFile; fileRef = 670B1226224E43BD00A64271 /* changeReturnValue.js */; };
+		670B1235224E43BD00A64271 /* runBeforeInstanceMethod.js in Resources */ = {isa = PBXBuildFile; fileRef = 670B1227224E43BD00A64271 /* runBeforeInstanceMethod.js */; };
+		670B1236224E43BD00A64271 /* calssMethodCrash.js in Resources */ = {isa = PBXBuildFile; fileRef = 670B1228224E43BD00A64271 /* calssMethodCrash.js */; };
+		670B1237224E43BD00A64271 /* changePrames.js in Resources */ = {isa = PBXBuildFile; fileRef = 670B1229224E43BD00A64271 /* changePrames.js */; };
+		670B1238224E43BD00A64271 /* runInsteadInstanceMethod.js in Resources */ = {isa = PBXBuildFile; fileRef = 670B122A224E43BD00A64271 /* runInsteadInstanceMethod.js */; };
+		670B1239224E43BD00A64271 /* runWithInstanceMethod.js in Resources */ = {isa = PBXBuildFile; fileRef = 670B122B224E43BD00A64271 /* runWithInstanceMethod.js */; };
+		670B123A224E43BD00A64271 /* runInsteadClassMethod.js in Resources */ = {isa = PBXBuildFile; fileRef = 670B122C224E43BD00A64271 /* runInsteadClassMethod.js */; };
+		670B123B224E43BD00A64271 /* runWithParams.js in Resources */ = {isa = PBXBuildFile; fileRef = 670B122D224E43BD00A64271 /* runWithParams.js */; };
+		670B123C224E43BD00A64271 /* runAfterClassMethod.js in Resources */ = {isa = PBXBuildFile; fileRef = 670B122E224E43BD00A64271 /* runAfterClassMethod.js */; };
+		670B8AC222530DA200B8D201 /* UIAlertView+fix.m in Sources */ = {isa = PBXBuildFile; fileRef = 670B8AC122530DA200B8D201 /* UIAlertView+fix.m */; };
+		670B8AC4225348EC00B8D201 /* 增加方法addMethod.js in Resources */ = {isa = PBXBuildFile; fileRef = 670B8AC3225348EC00B8D201 /* 增加方法addMethod.js */; };
+		671475D122E6A6D100C0A235 /* UIColor+xsfix.m in Sources */ = {isa = PBXBuildFile; fileRef = 671475D022E6A6D100C0A235 /* UIColor+xsfix.m */; };
+		671475D422E6B43700C0A235 /* UIView+xsfix.m in Sources */ = {isa = PBXBuildFile; fileRef = 671475D322E6B43700C0A235 /* UIView+xsfix.m */; };
+		671475D722E6B80C00C0A235 /* NSObject+xsfix.m in Sources */ = {isa = PBXBuildFile; fileRef = 671475D622E6B80C00C0A235 /* NSObject+xsfix.m */; };
+		671475DA22E6B94500C0A235 /* UIButton+xsfix.m in Sources */ = {isa = PBXBuildFile; fileRef = 671475D922E6B94500C0A235 /* UIButton+xsfix.m */; };
+		671475DC22E6FC8300C0A235 /* 添加button.js in Resources */ = {isa = PBXBuildFile; fileRef = 671475DB22E6FC8300C0A235 /* 添加button.js */; };
+		671475DE22E7023600C0A235 /* GCD相关.js in Resources */ = {isa = PBXBuildFile; fileRef = 671475DD22E7023600C0A235 /* GCD相关.js */; };
+		671BA3AC237D504100EB7B8D /* NSObject+invocation.m in Sources */ = {isa = PBXBuildFile; fileRef = 671BA3AB237D504100EB7B8D /* NSObject+invocation.m */; };
+		67236BA5214BB06100C9823B /* runMethod.js in Resources */ = {isa = PBXBuildFile; fileRef = 67236BA4214BB06100C9823B /* runMethod.js */; };
+		67236BB1214BB2BF00C9823B /* Aspects.m in Sources */ = {isa = PBXBuildFile; fileRef = 67236BAB214BB2BF00C9823B /* Aspects.m */; };
+		67236BB2214BB2BF00C9823B /* NSInvocation+LYAddtion.m in Sources */ = {isa = PBXBuildFile; fileRef = 67236BAD214BB2BF00C9823B /* NSInvocation+LYAddtion.m */; };
+		67238A4121CC986E005D9065 /* NSInvocation+Block.m in Sources */ = {isa = PBXBuildFile; fileRef = 67238A3D21CC986E005D9065 /* NSInvocation+Block.m */; };
+		67238A4321CC986E005D9065 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 67238A3F21CC986E005D9065 /* README.md */; };
+		6727C66023823850008ADE49 /* methodName.js in Resources */ = {isa = PBXBuildFile; fileRef = 6727C65F23823850008ADE49 /* methodName.js */; };
+		6727C66323823CEE008ADE49 /* NSObject+xsKeyValue.m in Sources */ = {isa = PBXBuildFile; fileRef = 6727C66223823CEE008ADE49 /* NSObject+xsKeyValue.m */; };
+		6764619A21A650220043F96C /* FixObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 6764619921A650220043F96C /* FixObject.m */; };
+		67874FC5237E5760001D1BB1 /* TestModelSubclass.m in Sources */ = {isa = PBXBuildFile; fileRef = 67874FC4237E5760001D1BB1 /* TestModelSubclass.m */; };
+		67CA2CFA21A6575000C229A3 /* replaceMethod1.js in Resources */ = {isa = PBXBuildFile; fileRef = 67CA2CF921A6575000C229A3 /* replaceMethod1.js */; };
+		67D53B0C2148F0550079FC5F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 67D53B0B2148F0550079FC5F /* AppDelegate.m */; };
+		67D53B0F2148F0550079FC5F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 67D53B0E2148F0550079FC5F /* ViewController.m */; };
+		67D53B122148F0550079FC5F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 67D53B102148F0550079FC5F /* Main.storyboard */; };
+		67D53B142148F0570079FC5F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 67D53B132148F0570079FC5F /* Assets.xcassets */; };
+		67D53B172148F0570079FC5F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 67D53B152148F0570079FC5F /* LaunchScreen.storyboard */; };
+		67D53B1A2148F0570079FC5F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 67D53B192148F0570079FC5F /* main.m */; };
+		67D53B242149169C0079FC5F /* JSFix.m in Sources */ = {isa = PBXBuildFile; fileRef = 67D53B232149169C0079FC5F /* JSFix.m */; };
+		F2E1E2DA2A4B0435007BFE6C /* TwoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F2E1E2D92A4B0435007BFE6C /* TwoViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6707368621CB455400401F6F /* XSFixReadme.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XSFixReadme.h; sourceTree = "<group>"; };
+		6707368721CB45ED00401F6F /* TestModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestModel.h; sourceTree = "<group>"; };
+		6707368821CB45ED00401F6F /* TestModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestModel.m; sourceTree = "<group>"; };
+		670B11FB224DFBE600A64271 /* test.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = test.js; sourceTree = "<group>"; };
+		670B1221224E43BD00A64271 /* instanceMethodCrash.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = instanceMethodCrash.js; sourceTree = "<group>"; };
+		670B1222224E43BD00A64271 /* runInstanceMethod.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = runInstanceMethod.js; sourceTree = "<group>"; };
+		670B1223224E43BD00A64271 /* runBeforeClassMethod.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = runBeforeClassMethod.js; sourceTree = "<group>"; };
+		670B1224224E43BD00A64271 /* runClassMethod.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = runClassMethod.js; sourceTree = "<group>"; };
+		670B1225224E43BD00A64271 /* runAfterInstanceMethod.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = runAfterInstanceMethod.js; sourceTree = "<group>"; };
+		670B1226224E43BD00A64271 /* changeReturnValue.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = changeReturnValue.js; sourceTree = "<group>"; };
+		670B1227224E43BD00A64271 /* runBeforeInstanceMethod.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = runBeforeInstanceMethod.js; sourceTree = "<group>"; };
+		670B1228224E43BD00A64271 /* calssMethodCrash.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = calssMethodCrash.js; sourceTree = "<group>"; };
+		670B1229224E43BD00A64271 /* changePrames.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = changePrames.js; sourceTree = "<group>"; };
+		670B122A224E43BD00A64271 /* runInsteadInstanceMethod.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = runInsteadInstanceMethod.js; sourceTree = "<group>"; };
+		670B122B224E43BD00A64271 /* runWithInstanceMethod.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = runWithInstanceMethod.js; sourceTree = "<group>"; };
+		670B122C224E43BD00A64271 /* runInsteadClassMethod.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = runInsteadClassMethod.js; sourceTree = "<group>"; };
+		670B122D224E43BD00A64271 /* runWithParams.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = runWithParams.js; sourceTree = "<group>"; };
+		670B122E224E43BD00A64271 /* runAfterClassMethod.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = runAfterClassMethod.js; sourceTree = "<group>"; };
+		670B8AC022530DA200B8D201 /* UIAlertView+fix.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIAlertView+fix.h"; sourceTree = "<group>"; };
+		670B8AC122530DA200B8D201 /* UIAlertView+fix.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIAlertView+fix.m"; sourceTree = "<group>"; };
+		670B8AC3225348EC00B8D201 /* 增加方法addMethod.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "增加方法addMethod.js"; sourceTree = "<group>"; };
+		671475CF22E6A6D100C0A235 /* UIColor+xsfix.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIColor+xsfix.h"; sourceTree = "<group>"; };
+		671475D022E6A6D100C0A235 /* UIColor+xsfix.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIColor+xsfix.m"; sourceTree = "<group>"; };
+		671475D222E6B43700C0A235 /* UIView+xsfix.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+xsfix.h"; sourceTree = "<group>"; };
+		671475D322E6B43700C0A235 /* UIView+xsfix.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+xsfix.m"; sourceTree = "<group>"; };
+		671475D522E6B80C00C0A235 /* NSObject+xsfix.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+xsfix.h"; sourceTree = "<group>"; };
+		671475D622E6B80C00C0A235 /* NSObject+xsfix.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+xsfix.m"; sourceTree = "<group>"; };
+		671475D822E6B94500C0A235 /* UIButton+xsfix.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIButton+xsfix.h"; sourceTree = "<group>"; };
+		671475D922E6B94500C0A235 /* UIButton+xsfix.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIButton+xsfix.m"; sourceTree = "<group>"; };
+		671475DB22E6FC8300C0A235 /* 添加button.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "添加button.js"; sourceTree = "<group>"; };
+		671475DD22E7023600C0A235 /* GCD相关.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "GCD相关.js"; sourceTree = "<group>"; };
+		671BA3AA237D504100EB7B8D /* NSObject+invocation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+invocation.h"; sourceTree = "<group>"; };
+		671BA3AB237D504100EB7B8D /* NSObject+invocation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+invocation.m"; sourceTree = "<group>"; };
+		67236BA4214BB06100C9823B /* runMethod.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = runMethod.js; sourceTree = "<group>"; };
+		67236BA9214BB2BF00C9823B /* Aspects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Aspects.h; sourceTree = "<group>"; };
+		67236BAB214BB2BF00C9823B /* Aspects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Aspects.m; sourceTree = "<group>"; };
+		67236BAD214BB2BF00C9823B /* NSInvocation+LYAddtion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSInvocation+LYAddtion.m"; sourceTree = "<group>"; };
+		67236BAE214BB2BF00C9823B /* NSInvocation+LYAddtion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSInvocation+LYAddtion.h"; sourceTree = "<group>"; };
+		67238A3B21CC859F005D9065 /* alert.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = alert.js; sourceTree = "<group>"; };
+		67238A3D21CC986E005D9065 /* NSInvocation+Block.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSInvocation+Block.m"; sourceTree = "<group>"; };
+		67238A3F21CC986E005D9065 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		67238A4021CC986E005D9065 /* NSInvocation+Block.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSInvocation+Block.h"; sourceTree = "<group>"; };
+		67238A4421CCDBAD005D9065 /* changeReturnValue.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = changeReturnValue.js; sourceTree = "<group>"; };
+		67238A4521CCDD3C005D9065 /* changeArguments.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = changeArguments.js; sourceTree = "<group>"; };
+		67238A4621CCDEFD005D9065 /* tableView.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = tableView.js; sourceTree = "<group>"; };
+		6727C65F23823850008ADE49 /* methodName.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = methodName.js; sourceTree = "<group>"; };
+		6727C66123823CEE008ADE49 /* NSObject+xsKeyValue.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+xsKeyValue.h"; sourceTree = "<group>"; };
+		6727C66223823CEE008ADE49 /* NSObject+xsKeyValue.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+xsKeyValue.m"; sourceTree = "<group>"; };
+		6764619821A650220043F96C /* FixObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FixObject.h; sourceTree = "<group>"; };
+		6764619921A650220043F96C /* FixObject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FixObject.m; sourceTree = "<group>"; };
+		67874FC3237E5760001D1BB1 /* TestModelSubclass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestModelSubclass.h; sourceTree = "<group>"; };
+		67874FC4237E5760001D1BB1 /* TestModelSubclass.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestModelSubclass.m; sourceTree = "<group>"; };
+		67CA2CF921A6575000C229A3 /* replaceMethod1.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = replaceMethod1.js; sourceTree = "<group>"; };
+		67D53B072148F0550079FC5F /* 热修复.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "热修复.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		67D53B0A2148F0550079FC5F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		67D53B0B2148F0550079FC5F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		67D53B0D2148F0550079FC5F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		67D53B0E2148F0550079FC5F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		67D53B112148F0550079FC5F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		67D53B132148F0570079FC5F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		67D53B162148F0570079FC5F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		67D53B182148F0570079FC5F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		67D53B192148F0570079FC5F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		67D53B222149169C0079FC5F /* JSFix.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JSFix.h; sourceTree = "<group>"; };
+		67D53B232149169C0079FC5F /* JSFix.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JSFix.m; sourceTree = "<group>"; };
+		F2E1E2D82A4B0435007BFE6C /* TwoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TwoViewController.h; sourceTree = "<group>"; };
+		F2E1E2D92A4B0435007BFE6C /* TwoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TwoViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		67D53B042148F0550079FC5F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		670B1220224E43BD00A64271 /* demo中的JS */ = {
+			isa = PBXGroup;
+			children = (
+				670B1221224E43BD00A64271 /* instanceMethodCrash.js */,
+				670B1222224E43BD00A64271 /* runInstanceMethod.js */,
+				670B1223224E43BD00A64271 /* runBeforeClassMethod.js */,
+				670B1224224E43BD00A64271 /* runClassMethod.js */,
+				670B1225224E43BD00A64271 /* runAfterInstanceMethod.js */,
+				670B1226224E43BD00A64271 /* changeReturnValue.js */,
+				670B1227224E43BD00A64271 /* runBeforeInstanceMethod.js */,
+				670B1228224E43BD00A64271 /* calssMethodCrash.js */,
+				670B1229224E43BD00A64271 /* changePrames.js */,
+				670B122A224E43BD00A64271 /* runInsteadInstanceMethod.js */,
+				670B122B224E43BD00A64271 /* runWithInstanceMethod.js */,
+				670B122C224E43BD00A64271 /* runInsteadClassMethod.js */,
+				670B122D224E43BD00A64271 /* runWithParams.js */,
+				670B122E224E43BD00A64271 /* runAfterClassMethod.js */,
+			);
+			path = "demo中的JS";
+			sourceTree = "<group>";
+		};
+		671489A321CB33DB00355DD9 /* XSFix */ = {
+			isa = PBXGroup;
+			children = (
+				6707368621CB455400401F6F /* XSFixReadme.h */,
+				67D53B222149169C0079FC5F /* JSFix.h */,
+				67D53B232149169C0079FC5F /* JSFix.m */,
+				6764619821A650220043F96C /* FixObject.h */,
+				6764619921A650220043F96C /* FixObject.m */,
+				67238A3C21CC986E005D9065 /* NSInvocation-Block */,
+				67236BAC214BB2BF00C9823B /* Category */,
+			);
+			path = XSFix;
+			sourceTree = "<group>";
+		};
+		67236BA6214BB16500C9823B /* js_demo */ = {
+			isa = PBXGroup;
+			children = (
+				670B1220224E43BD00A64271 /* demo中的JS */,
+				671475DB22E6FC8300C0A235 /* 添加button.js */,
+				671475DD22E7023600C0A235 /* GCD相关.js */,
+				670B8AC3225348EC00B8D201 /* 增加方法addMethod.js */,
+				67236BA4214BB06100C9823B /* runMethod.js */,
+				67CA2CF921A6575000C229A3 /* replaceMethod1.js */,
+				67238A3B21CC859F005D9065 /* alert.js */,
+				67238A4621CCDEFD005D9065 /* tableView.js */,
+				67238A4421CCDBAD005D9065 /* changeReturnValue.js */,
+				67238A4521CCDD3C005D9065 /* changeArguments.js */,
+				6727C65F23823850008ADE49 /* methodName.js */,
+				670B11FB224DFBE600A64271 /* test.js */,
+			);
+			path = js_demo;
+			sourceTree = "<group>";
+		};
+		67236BA7214BB2BF00C9823B /* AspectsFix */ = {
+			isa = PBXGroup;
+			children = (
+				67236BA9214BB2BF00C9823B /* Aspects.h */,
+				67236BAB214BB2BF00C9823B /* Aspects.m */,
+			);
+			path = AspectsFix;
+			sourceTree = "<group>";
+		};
+		67236BAC214BB2BF00C9823B /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				671475D522E6B80C00C0A235 /* NSObject+xsfix.h */,
+				671475D622E6B80C00C0A235 /* NSObject+xsfix.m */,
+				671BA3AA237D504100EB7B8D /* NSObject+invocation.h */,
+				671BA3AB237D504100EB7B8D /* NSObject+invocation.m */,
+				6727C66123823CEE008ADE49 /* NSObject+xsKeyValue.h */,
+				6727C66223823CEE008ADE49 /* NSObject+xsKeyValue.m */,
+				67236BAE214BB2BF00C9823B /* NSInvocation+LYAddtion.h */,
+				67236BAD214BB2BF00C9823B /* NSInvocation+LYAddtion.m */,
+				671475D222E6B43700C0A235 /* UIView+xsfix.h */,
+				671475D322E6B43700C0A235 /* UIView+xsfix.m */,
+				671475D822E6B94500C0A235 /* UIButton+xsfix.h */,
+				671475D922E6B94500C0A235 /* UIButton+xsfix.m */,
+				671475CF22E6A6D100C0A235 /* UIColor+xsfix.h */,
+				671475D022E6A6D100C0A235 /* UIColor+xsfix.m */,
+				670B8AC022530DA200B8D201 /* UIAlertView+fix.h */,
+				670B8AC122530DA200B8D201 /* UIAlertView+fix.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		67238A3C21CC986E005D9065 /* NSInvocation-Block */ = {
+			isa = PBXGroup;
+			children = (
+				67238A3F21CC986E005D9065 /* README.md */,
+				67238A4021CC986E005D9065 /* NSInvocation+Block.h */,
+				67238A3D21CC986E005D9065 /* NSInvocation+Block.m */,
+			);
+			path = "NSInvocation-Block";
+			sourceTree = "<group>";
+		};
+		676E74D02383BF0E0013A424 /* testClass */ = {
+			isa = PBXGroup;
+			children = (
+				6707368721CB45ED00401F6F /* TestModel.h */,
+				6707368821CB45ED00401F6F /* TestModel.m */,
+				67874FC3237E5760001D1BB1 /* TestModelSubclass.h */,
+				67874FC4237E5760001D1BB1 /* TestModelSubclass.m */,
+			);
+			path = testClass;
+			sourceTree = "<group>";
+		};
+		67D53AFE2148F0550079FC5F = {
+			isa = PBXGroup;
+			children = (
+				67D53B092148F0550079FC5F /* 热修复 */,
+				67D53B082148F0550079FC5F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		67D53B082148F0550079FC5F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				67D53B072148F0550079FC5F /* 热修复.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		67D53B092148F0550079FC5F /* 热修复 */ = {
+			isa = PBXGroup;
+			children = (
+				67D53B0A2148F0550079FC5F /* AppDelegate.h */,
+				67D53B0B2148F0550079FC5F /* AppDelegate.m */,
+				67D53B0D2148F0550079FC5F /* ViewController.h */,
+				67D53B0E2148F0550079FC5F /* ViewController.m */,
+				F2E1E2D82A4B0435007BFE6C /* TwoViewController.h */,
+				F2E1E2D92A4B0435007BFE6C /* TwoViewController.m */,
+				676E74D02383BF0E0013A424 /* testClass */,
+				67236BA6214BB16500C9823B /* js_demo */,
+				671489A321CB33DB00355DD9 /* XSFix */,
+				67236BA7214BB2BF00C9823B /* AspectsFix */,
+				67D53B102148F0550079FC5F /* Main.storyboard */,
+				67D53B132148F0570079FC5F /* Assets.xcassets */,
+				67D53B152148F0570079FC5F /* LaunchScreen.storyboard */,
+				67D53B182148F0570079FC5F /* Info.plist */,
+				67D53B192148F0570079FC5F /* main.m */,
+			);
+			path = "热修复";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		67D53B062148F0550079FC5F /* 热修复 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 67D53B1D2148F0570079FC5F /* Build configuration list for PBXNativeTarget "热修复" */;
+			buildPhases = (
+				67D53B032148F0550079FC5F /* Sources */,
+				67D53B042148F0550079FC5F /* Frameworks */,
+				67D53B052148F0550079FC5F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "热修复";
+			productName = "热修复";
+			productReference = 67D53B072148F0550079FC5F /* 热修复.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		67D53AFF2148F0550079FC5F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1320;
+				ORGANIZATIONNAME = xueshan1;
+				TargetAttributes = {
+					67D53B062148F0550079FC5F = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 67D53B022148F0550079FC5F /* Build configuration list for PBXProject "热修复" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 67D53AFE2148F0550079FC5F;
+			productRefGroup = 67D53B082148F0550079FC5F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				67D53B062148F0550079FC5F /* 热修复 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		67D53B052148F0550079FC5F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				670B1238224E43BD00A64271 /* runInsteadInstanceMethod.js in Resources */,
+				670B1237224E43BD00A64271 /* changePrames.js in Resources */,
+				670B1239224E43BD00A64271 /* runWithInstanceMethod.js in Resources */,
+				6727C66023823850008ADE49 /* methodName.js in Resources */,
+				670B11FC224DFD9000A64271 /* test.js in Resources */,
+				670B1233224E43BD00A64271 /* runAfterInstanceMethod.js in Resources */,
+				670B1231224E43BD00A64271 /* runBeforeClassMethod.js in Resources */,
+				670B11FF224E069500A64271 /* alert.js in Resources */,
+				670B1232224E43BD00A64271 /* runClassMethod.js in Resources */,
+				67D53B172148F0570079FC5F /* LaunchScreen.storyboard in Resources */,
+				67236BA5214BB06100C9823B /* runMethod.js in Resources */,
+				670B1234224E43BD00A64271 /* changeReturnValue.js in Resources */,
+				67D53B142148F0570079FC5F /* Assets.xcassets in Resources */,
+				670B8AC4225348EC00B8D201 /* 增加方法addMethod.js in Resources */,
+				67238A4321CC986E005D9065 /* README.md in Resources */,
+				670B1230224E43BD00A64271 /* runInstanceMethod.js in Resources */,
+				67CA2CFA21A6575000C229A3 /* replaceMethod1.js in Resources */,
+				671475DE22E7023600C0A235 /* GCD相关.js in Resources */,
+				670B1202224E069E00A64271 /* changeArguments.js in Resources */,
+				670B123B224E43BD00A64271 /* runWithParams.js in Resources */,
+				670B1235224E43BD00A64271 /* runBeforeInstanceMethod.js in Resources */,
+				670B1200224E069700A64271 /* tableView.js in Resources */,
+				670B123C224E43BD00A64271 /* runAfterClassMethod.js in Resources */,
+				670B122F224E43BD00A64271 /* instanceMethodCrash.js in Resources */,
+				670B123A224E43BD00A64271 /* runInsteadClassMethod.js in Resources */,
+				67D53B122148F0550079FC5F /* Main.storyboard in Resources */,
+				671475DC22E6FC8300C0A235 /* 添加button.js in Resources */,
+				670B1236224E43BD00A64271 /* calssMethodCrash.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		67D53B032148F0550079FC5F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67D53B0F2148F0550079FC5F /* ViewController.m in Sources */,
+				670B8AC222530DA200B8D201 /* UIAlertView+fix.m in Sources */,
+				671BA3AC237D504100EB7B8D /* NSObject+invocation.m in Sources */,
+				67D53B1A2148F0570079FC5F /* main.m in Sources */,
+				671475D422E6B43700C0A235 /* UIView+xsfix.m in Sources */,
+				671475DA22E6B94500C0A235 /* UIButton+xsfix.m in Sources */,
+				67D53B242149169C0079FC5F /* JSFix.m in Sources */,
+				671475D122E6A6D100C0A235 /* UIColor+xsfix.m in Sources */,
+				671475D722E6B80C00C0A235 /* NSObject+xsfix.m in Sources */,
+				67236BB2214BB2BF00C9823B /* NSInvocation+LYAddtion.m in Sources */,
+				6764619A21A650220043F96C /* FixObject.m in Sources */,
+				67238A4121CC986E005D9065 /* NSInvocation+Block.m in Sources */,
+				67D53B0C2148F0550079FC5F /* AppDelegate.m in Sources */,
+				67236BB1214BB2BF00C9823B /* Aspects.m in Sources */,
+				6707368921CB45ED00401F6F /* TestModel.m in Sources */,
+				F2E1E2DA2A4B0435007BFE6C /* TwoViewController.m in Sources */,
+				6727C66323823CEE008ADE49 /* NSObject+xsKeyValue.m in Sources */,
+				67874FC5237E5760001D1BB1 /* TestModelSubclass.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		67D53B102148F0550079FC5F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				67D53B112148F0550079FC5F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		67D53B152148F0570079FC5F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				67D53B162148F0570079FC5F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		67D53B1B2148F0570079FC5F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		67D53B1C2148F0570079FC5F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		67D53B1E2148F0570079FC5F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NTGLT3L6V2;
+				ENABLE_STRICT_OBJC_MSGSEND = NO;
+				INFOPLIST_FILE = "热修复/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sina.---";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		67D53B1F2148F0570079FC5F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NTGLT3L6V2;
+				ENABLE_STRICT_OBJC_MSGSEND = NO;
+				INFOPLIST_FILE = "热修复/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sina.---";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		67D53B022148F0550079FC5F /* Build configuration list for PBXProject "热修复" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67D53B1B2148F0570079FC5F /* Debug */,
+				67D53B1C2148F0570079FC5F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		67D53B1D2148F0570079FC5F /* Build configuration list for PBXNativeTarget "热修复" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67D53B1E2148F0570079FC5F /* Debug */,
+				67D53B1F2148F0570079FC5F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 67D53AFF2148F0550079FC5F /* Project object */;
+}
